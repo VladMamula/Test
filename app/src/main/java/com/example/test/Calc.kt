@@ -5,6 +5,7 @@ import kotlin.random.Random
 class Calc {
     var a= arrayOfNulls<Int>(5) // массив первых чисел примеров
     var b= arrayOfNulls<Int>(5) // массив вторых чисел примеров
+    var kf:Array<Double> = arrayOf(1.0,1.0,1.0,1.0,1.0) //массив баллов, который показывает пользовались ли подсказкой
     var oper:Array<String> = arrayOf("+","-","*","/","+") //массив математ. операций
 
     init {
